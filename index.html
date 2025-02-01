@@ -5,12 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food grocery</title>
     <!-- google font -->
+
+     <!--poppins font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <!-- sora font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <style>
         .font-sora{
             font-family:  "Sora", serif;
+        }
+    </style>
+    <style>
+        .font-poppins{
+            font-family: "Poppins", serif;
         }
     </style>
     <!-- DaisyUI CND code -->
@@ -30,7 +41,7 @@
       </script> 
       <script src="https://kit.fontawesome.com/8a99a91be9.js" crossorigin="anonymous"></script>
 </head>
-<body class="font-sora">
+<body>
     <!-- header section -->
     <header class=" mt-8  bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
         <div class="navbar mx-auto lg:w-[1280px] mb-20">
@@ -79,7 +90,7 @@
     <!-- main section -->
     <main>
         <!-- service section -->
-        <section class="mx-auto lg:max-w-[1080px] my-9 md:mb-[140px]">
+        <section class="mx-auto lg:max-w-[1080px] my-9 md:mb-[140px] font-sora">
             <h1 class="text-[#179800] text-4xl font-600 mb-4">Service</h1>
             <div class="grid md:grid-cols-3 gap-6 mx-3">
                 <div class="border rounded-2xl bg-[#EFEBE3] p-5 text-center">
@@ -100,147 +111,176 @@
             </div>
         </section>
         <!-- popular section -->
-        <section class="bg-[#EFEBE3] Py-[140px]">
-               <div class="mx-auto max-w-[1080px]">
-                   <div class="pt-[100px]">
-                        <h1 class="text-[#179800] font-semibold text-2xl mb-6">
-                            Popular Products
-                        </h1>
-                   </div>
-                   <div class="grid grid-cols-5 gap-3 pb-24">
-                        <div class="bg-gradient-to-t from-[#82d482] to-[#39e039] rounded-lg row-span-3 col-span-2 pt-7 pl-4 h-[350px] relative">
-                            <h2 class="text-white font-bold text-3xl">30% off</h2>
-                            <p>Discover a world of treats, toys, and essentials handpicked for you.</p>
-                            <button class="btn normal-btn ">Buy Now</button>
-                            <img  class="absolute bottom-0 right-0 w-30 h-30 object-cover" src="c2-assets/vegetable-offer.png" alt="">
-                        </div>
-                        <!-- product box -->
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                        <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center w-[200px] h-[90px] py-4 border rounded-xl">
-                            <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
-                                <div class="w-24 p-5 pr-6 border rounded-lg">
-                                    <img class="text-none" src="images/onion.png" alt="onion">
-                                </div>
-                            </div>
-                            <div>
-                                <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
-                                <h3 class="text-2xl font-semibold">Onion</h3>
-                                <p class="text-sm font-500">$40.32</p>
-                            </div>
-                        </div>
-                   </div>
-               </div>
-        </section>
-        <section class="container mx-auto  py-[140px]">
-            <div class="flex bg-[#115414] p-5">
-                <div>
-                    <img src="c2-assets/dawat-logo.png" alt="">
-                    <button>Cook Exotic Dishes</button>
-                    <h1>UP to 20% OFF</h1>
+        <section class="bg-[#EFEBE3] py-[20px] font-sora">
+            <div class="mx-auto max-w-[1080px] p-4 lg:p-0">
+                <div class="pt-[100px]">
+                     <h1 class="text-[#179800] font-semibold text-2xl mb-6">
+                         Popular Products
+                     </h1>
                 </div>
-                <div>
-                    <img src="c2-assets/dawat-mock-up.png" alt="">
+                <div class="grid grid-cols-6 lg:grid-cols-5 gap-5 pb-24">
+                    <!-- discover box -->
+                     <div class="bg-gradient-to-t from-[#82d482] to-[#39e039] rounded-lg col-span-6 lg:col-span-2 lg:row-span-3 pt-7 pl-4  py-52 relative">
+                         <h2 class="text-white font-bold text-3xl">30% off</h2>
+                         <p>Discover a world of treats, toys, and essentials handpicked for you.</p>
+                         <button class="btn normal-btn ">Buy Now</button>
+                         <img  class="absolute bottom-0 right-0 w-30 h-30 object-cover" src="c2-assets/vegetable-offer.png" alt="">
+                     </div>
+                     <!-- product box -->
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/onion.png" alt="onion">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">Onion 1KG</h3>
+                             <p class="text-sm font-500">$40.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/tomato.png" alt="tomato">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">Tomato 1KG</h3>
+                             <p class="text-sm font-500">$50.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/potato.png" alt="potato">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">potato 1KG</h3>
+                             <p class="text-sm font-500">$28.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/onion.png" alt="onion">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">Onion 1KG</h3>
+                             <p class="text-sm font-500">$40.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/tomato.png" alt="Tomato">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">Tomato 1KG</h3>
+                             <p class="text-sm font-500">$40.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/potato.png" alt="onion">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">potato 1KG</h3>
+                             <p class="text-sm font-500">$40.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/onion.png" alt="onion">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">Onion 1KG</h3>
+                             <p class="text-sm font-500">$40.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/tomato.png" alt="onion">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">Tomato 1KG</h3>
+                             <p class="text-sm font-500">$40.32</p>
+                         </div>
+                     </div>
+                     <div  class="bg-[#FFFFFF] flex gap-5 justify-center items-center py-4 border rounded-xl col-span-3 md:col-span-1 invisible lg:visible">
+                         <div class="avatar w-[70px] h-[70px] bg-[#EFEBE3] rounded-xl">
+                             <div class="w-24 p-5 pr-6 border rounded-lg">
+                                 <img class="text-none" src="images/potato.png" alt="onion">
+                             </div>
+                         </div>
+                         <div>
+                             <p><i class="fa-solid fa-star text-[#FFC107] text-sm font-500"></i>4.5</p>
+                             <h3 class="text-sm font-semibold">potato 1KG</h3>
+                             <p class="text-sm font-500">$40.32</p>
+                         </div>
+                     </div>
                 </div>
             </div>
-            <div></div>
-
+     </section>
+        <section class="mx-auto lg:w-[1080px] lg:py-[120px] p-4 lg:p-0 font-poppins">
+            <h1 class="text-[#179800] font-bold text-4xl mb-12">Arrival & Offers</h1>
+            <div class="md:grid grid-rows-1 lg:flex flex-row gap-4">
+                <div class="flex gap-x-[86px] bg-[#115414] pt-8 pl-[40px] lg:w-[55%] rounded-2xl">
+                    <div class="lg:w-[300px]">
+                        <img src="c2-assets/dawat-logo.png" alt="">
+                        <button class="bg-[#63B76D] text-1xl font-400 text-white px-[30px] py-[14px] my-5 rounded-xl">Cook Exotic Dishes</button>
+                        <h1 class="text-3xl mb-23 text-white font-bold">UP to 20% OFF</h1>
+                    </div>
+                    <div>
+                        <img src="c2-assets/dawat-mock-up.png" alt="">
+                    </div>
+                </div>
+                <div class="flex gap-x-[60px] bg-[#102861] pt-4 pl-[40px] pr-[20px] lg:w-[45%] rounded-2xl mt-7 lg:mt-0">
+                    <div class="lg:w-[300px]">
+                        <img src="c2-assets/india-gate-logo.png" alt="">
+                        <button class="bg-[#2A4D97] text-1xl font-400 text-white px-[30px] py-[14px] rounded-xl">World's No.1 Rice</button>
+                        <h1 class="text-3xl mb-23 text-white font-bold">UP to 40% OFF</h1>
+                    </div>
+                    <div>
+                        <img src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <section class="relative">
+            <section class="absolute">
+                <div>
+                    <img src="c2-assets/vegetable-busket.png" alt="">
+                </div>
+                <div>
+                    <h1>Get Grocery News!</h1>
+                    <p>Exclusive training tips, ticks, product deals and more.</p>
+                    <button></button>
+                </div>
+            </section>
+            <section>
+
+            </section>
+        </section>
+    </footer>
     
 </body>
 </html>
